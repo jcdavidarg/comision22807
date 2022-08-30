@@ -1,0 +1,29 @@
+#card {
+  display: flex;
+  border: 12px solid rgb(134, 81, 21);
+  border-radius: 15px;
+  width: 600px;
+}
+
+.card-text {
+  padding-left: 25px;
+  background-color: rgba(222, 184, 135, 0.426);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.card-text a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(178, 133, 49);
+}
